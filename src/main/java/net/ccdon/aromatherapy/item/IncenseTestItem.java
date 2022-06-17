@@ -1,4 +1,4 @@
 package net.ccdon.aromatherapy.item;
 
-public class IncenseTest {
+public class IncenseTestItem {
 }

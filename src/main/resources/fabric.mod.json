@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "aromatherapy",
+  "version": "${version}",
+
+  "name": "Aromatherapy",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ccdon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/aromatherapy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ccdon.aromatherapy.Aromatherapy"
+    ],
+    "client": [
+      "net.ccdon.aromatherapy.AromatherapyClient"
+    ]
+  },
+  "mixins": [
+    "aromatherapy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
